@@ -1,0 +1,192 @@
+/* configurations */
+
+
+h1.title{
+    font-size: 36px !important;
+    font-family: 'Saira', sans-serif;
+    line-height: 1.6;
+}
+body{
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+}
+a{
+    text-decoration: none !important;
+}
+
+.container{
+    max-width: 1100px !important;
+}
+.divider{
+    height: 80px;
+    display: block;
+}
+.divider.sm{
+    height: 20px;
+    display: block;
+}
+.divider.md{
+    height: 40px;
+    display: block;
+}
+.container.products{
+    padding: 0px !important;
+}
+hr{
+    margin: 0px !important;
+    border-top: 3px solid #C11717;
+    width: 293px;
+}
+/* configurations end*/
+.container-fluid.top-banner{
+    background-image: url('/image/slider.png');
+    background-size: cover;
+}
+.container-fluid.top-banner .row{
+    height: 100%;
+    align-items: center;
+}
+.container-fluid.top-banner{
+    height: 400px;
+}
+
+a.title-cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #C11717;
+    width: 280px;
+    height: 64px;
+    transition: 0.3s all;
+}
+.container-fluid.top-banner h1.title{
+    color: white;
+}
+.container-fluid.top-banner .content-wrapper{
+    max-width: 616px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   }
+.container-fluid.top-banner{
+    display: flex;
+    justify-content: center;
+} 
+.container-fluid.top-banner .row{
+width: 1100px !important;
+}
+.single-benefit-card{
+    width: 240px;
+    height: 113px;
+    border: 1px solid #525357;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column
+}
+.single-benefit-card .ellipsis{
+    width: 91px;
+    height: 91px;
+    background:#C11717 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: -70px;
+   ;
+}
+.single-benefit-card span{
+    margin-top: 20px;
+}
+.container.benefits .row{
+    justify-content: space-between;
+}
+.single-benefit-card span{
+    font-weight: 500;
+}
+.container.products h1{
+    margin-bottom: 0px !important;
+}
+.row.forbtn{
+    justify-content: center;
+}
+.row.forbtn a.title-cta{
+    width: 395px ;
+}
+
+
+.container-fluid.middle-banner{
+    background-image: url('/image/middle.jpg');
+    background-size: cover;
+}
+.container-fluid.middle-banner .row{
+    height: 100%;
+    align-items: center;
+}
+.container-fluid.middle-banner{
+    height: 320px;
+}
+
+.container-fluid.middle-banner h1.title{
+    color: white;
+}
+.container-fluid.middle-banner .content-wrapper{
+    max-width: 616px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   }
+.container-fluid.middle-banner{
+    display: flex;
+    justify-content: center;
+} 
+.container-fluid.middle-banner .row{
+width: 1100px !important;
+}
+.container.brands{
+    padding: 0px !important;
+}
+.container.brands .row{
+    justify-content: center;
+}
+.container.brands .logo{
+    border-radius: 100px ;
+}
+.container.brands .logo img{
+    width: 188px;
+}
+a.title-cta:hover{
+    background: #981414;
+    transition: 0.3s all;
+}
+footer{
+    background: #525357;
+    height: 220px;
+}
+.row.logo-holder{
+    justify-content: center;
+}
+footer ul{
+    padding: 0px !important;
+    list-style-type: none;
+}
+
+footer ul li{
+    font-weight: 500;
+    line-height: 2;
+    color: white;
+}
+
+footer .col-lg-2{
+    padding: 0px !important;
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+}
+.container.footer{
+    padding: 0px !important;
+}
+.container.benefits{
+    max-width: 1020px !important;
+}
